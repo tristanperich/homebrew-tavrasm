@@ -7,5 +7,6 @@ class Tavrasm < Formula
 
   def install
     bin.install 'tavrasm'
+    bin.install Dir['include']
   end
 end
